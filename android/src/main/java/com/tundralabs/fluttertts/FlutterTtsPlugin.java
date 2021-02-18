@@ -40,7 +40,7 @@ public class FlutterTtsPlugin implements MethodCallHandler, FlutterPlugin {
   private Context context;
   private TextToSpeech tts;
   private final String tag = "TTS";
-  private final String googleTtsEngine = "com.google.android.tts";
+  private final String googleTtsEngine = "com.acapelagroup.android.tts"; // "com.google.android.tts";
   private boolean isTtsInitialized = false;
   private ArrayList<Runnable> pendingMethodCalls = new ArrayList<>();
   private final HashMap<String, String> utterances = new HashMap<>();
